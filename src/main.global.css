@@ -1,0 +1,47 @@
+@import url('https://fonts.cdnfonts.com/css/sf-ui-display');
+
+:root {
+    --black: #333;
+    --greenBtn: #A8B64F;
+    --greenHover: #899441;
+    --redExtra: #B7280F;
+    --red: #DC3E22;
+    --redBlind: #EE735D;
+    --redFullBlind: #EA8979;
+    --grayText: #999;
+    --white: hsl(0, 0%, var(--whiteLightness));
+    --greyC4: hsl(0, 0%, calc(var(--whiteLightness) - 23%));
+
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--white);
+    font-size: 16px;
+    font-family: 'SF UI Display', sans-serif;
+}
+
+* {
+    color: var(--black);
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+}

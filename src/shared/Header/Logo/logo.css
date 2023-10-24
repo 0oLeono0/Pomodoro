@@ -1,0 +1,9 @@
+.logoLink {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 205px;
+    color: var(--red);
+    font-size: 24px;
+    font-weight: 300;
+}
