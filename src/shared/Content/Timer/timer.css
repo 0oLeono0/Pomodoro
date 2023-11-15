@@ -1,0 +1,80 @@
+.block {
+    width: 65%;
+    background-color: #f4f4f4f4;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    width: 100%;
+    background-color: var(--grayC4);
+}
+
+.name {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.number {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main {
+    padding: 125px;
+}
+
+.timer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: var(--black);
+    font-size: 150px;
+    font-weight: 200;
+}
+
+.plus {
+    right: 20%;
+    bottom: 50%;
+    transform: translateY(50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.task {
+    text-align: center;
+    color: var(--grayText);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.taskNmae {
+    color: var(--black);
+}
+
+.buttons {
+    text-align: center;
+}
+
+.start {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 25px;
+    padding: 15px 50px;
+    background-color: var(--greenBtn);
+}
+
+.stop {
+    color: var(--grayC4);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 13px 48px;
+    border: 2px solid var(--grayC4);
+}

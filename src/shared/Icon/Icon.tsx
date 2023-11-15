@@ -2,6 +2,7 @@ import React from 'react';
 import {
   LogoIcon,
   StatsIcon,
+  PlusIcon,
 } from '../Icons';
 import styles from './icon.css';
 import classNames from 'classnames';
@@ -9,11 +10,13 @@ import classNames from 'classnames';
 const LIST = {
   logo: LogoIcon,
   stats: StatsIcon,
+  plus: PlusIcon,
 };
 
 export enum EIcon {
   logo = 'logo',
-  stats = 'stats'
+  stats = 'stats',
+  plus = 'plus',
 }
 
 interface IIconsProps {

@@ -9,8 +9,7 @@
     --redBlind: #EE735D;
     --redFullBlind: #EA8979;
     --grayText: #999;
-    --white: hsl(0, 0%, var(--whiteLightness));
-    --greyC4: hsl(0, 0%, calc(var(--whiteLightness) - 23%));
+    --grayC4: #c4c4c4;
 
 }
 
@@ -32,7 +31,6 @@ body {
 ul {
     margin: 0;
     padding: 0;
-    list-style: none;
 }
 
 a {
@@ -44,4 +42,13 @@ button {
     border: 0;
     background: transparent;
     cursor: pointer;
+}
+
+h1,h2,h3,h4,h5 {
+    margin: 0;
+}
+
+input, input:focus-visible{
+    border: none;
+    outline: none;
 }

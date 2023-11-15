@@ -1,5 +1,9 @@
 .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   overflow: visible;
+  padding: 100px 80px 100px 80px
 }
 
 @media all and (min-width: 1024px) {
