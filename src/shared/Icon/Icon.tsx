@@ -4,6 +4,10 @@ import {
   StatsIcon,
   PlusIcon,
   MenuIcon,
+  EnlargeIcon,
+  DecreaseIcon,
+  EditIcon,
+  DeleteIcon,
 } from '../Icons';
 import styles from './icon.css';
 import classNames from 'classnames';
@@ -13,6 +17,10 @@ const LIST = {
   stats: StatsIcon,
   plus: PlusIcon,
   menu: MenuIcon,
+  enlarge: EnlargeIcon,
+  decrease: DecreaseIcon,
+  edit: EditIcon,
+  delete: DeleteIcon,
 };
 
 export enum EIcon {
@@ -20,6 +28,10 @@ export enum EIcon {
   stats = 'stats',
   plus = 'plus',
   menu = 'menu',
+  enlarge = 'enlarge',
+  decrease = 'decrease',
+  edit = 'edit',
+  delete = 'delete',
 }
 
 interface IIconsProps {

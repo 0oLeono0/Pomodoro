@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './task.css';
-import { Icons, EIcon } from '../../../../Icon/Icon';
+import { Menu } from './Menu';
 
 interface ITaskProps {
   index: number,
@@ -12,9 +12,7 @@ export function Task(props: ITaskProps) {
     <div className={styles.task}>
       <span className={styles.number}>{props.index}</span>
       <p className={styles.text}>{props.task}</p>
-      <button className={styles.menuButton}>
-        <Icons name={EIcon.menu} />
-      </button>
+      <Menu/>
     </div>
   );
 }
