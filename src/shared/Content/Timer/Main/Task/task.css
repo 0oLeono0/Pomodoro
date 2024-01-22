@@ -1,0 +1,11 @@
+.task {
+    text-align: center;
+    color: var(--grayText);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.taskNmae {
+    color: var(--black);
+}

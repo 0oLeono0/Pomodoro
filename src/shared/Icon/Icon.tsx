@@ -3,6 +3,7 @@ import {
   LogoIcon,
   StatsIcon,
   PlusIcon,
+  MenuIcon,
 } from '../Icons';
 import styles from './icon.css';
 import classNames from 'classnames';
@@ -11,12 +12,14 @@ const LIST = {
   logo: LogoIcon,
   stats: StatsIcon,
   plus: PlusIcon,
+  menu: MenuIcon,
 };
 
 export enum EIcon {
   logo = 'logo',
   stats = 'stats',
   plus = 'plus',
+  menu = 'menu',
 }
 
 interface IIconsProps {

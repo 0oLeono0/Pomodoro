@@ -1,0 +1,18 @@
+.timer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: var(--black);
+    font-size: 150px;
+    font-weight: 200;
+}
+
+.plus {
+    right: 20%;
+    bottom: 50%;
+    transform: translateY(50%);
+    position: absolute;
+    display: flex;
+    align-items: center;
+}

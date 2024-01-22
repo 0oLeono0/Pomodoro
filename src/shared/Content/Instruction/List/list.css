@@ -1,0 +1,12 @@
+.list {
+    padding-left: 20px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 206.25%;
+    margin-bottom: 25px;
+}
+
+.listItem {
+    color: var(--red);
+}

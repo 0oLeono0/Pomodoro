@@ -1,0 +1,28 @@
+.task {
+    align-items: center;
+    display: flex;
+    padding: 15px 0;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #333;
+    margin-right: 10px;
+}
+
+.text {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    margin-right: auto;
+}
